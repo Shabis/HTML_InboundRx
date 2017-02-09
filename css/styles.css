@@ -1,0 +1,91 @@
+/*GRADIENT BACKGROUND*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(90deg, #c2eaec, #f4ebda);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+@-moz-keyframes Gradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+@keyframes Gradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+/*HEADER*/
+
+header > .row {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.menu-items {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1em;
+  margin-right: .5em;
+  margin-left: .5em;
+  font-weight: bold;
+  color: black;
+  text-shadow: .05em .05em lightgrey;
+}
+
+.main-navigation {
+  margin-top: 2em;
+  text-align: right;
+}
+
+a:hover {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 4em;
+  margin-top: 2em;
+}
+
+
+/*BODY*/
+body {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.section-main-titles {
+  background: white;
+  box-shadow: grey;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: .5em;
+}
+
+.boxed-section {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.boxed-image {
+  margin: 1em 1em 1em 1em;
+}
