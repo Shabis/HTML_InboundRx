@@ -49,6 +49,10 @@ header > .row {
   text-shadow: 2px 2px 15px rgba(150, 150, 150, 0.77);
 }
 
+.current-page {
+  color: white !important;
+}
+
 .main-navigation {
   margin-top: 4em;
   text-align: right;
@@ -81,17 +85,17 @@ body {
 
 .section-main-titles {
   background: white;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Montserrat', sans-serif;
   margin-right: 3em;
   padding: .5em;
   width: 100%;
-  box-shadow: 3px 3px 26px 0px rgba(0,0,0,0.28);
+  box-shadow: 3px 3px 26px 0px rgba(150,150,150,0.28);
 }
 
 .boxed-image {
   width: 100%;
-  box-shadow: 3px 3px 26px 0px rgba(0,0,0,0.28);
+  box-shadow: 3px 3px 26px 0px rgba(150,150,150,0.28);
 }
 
 .business-content {
