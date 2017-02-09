@@ -59,8 +59,12 @@ header > .row {
 }
 
 a:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1em;
   color: white !important;
   font-weight: normal;
+  font-weight: bold;
+  text-shadow: 2px 2px 15px rgba(150, 150, 150, 0.77);
 }
 
 a {
@@ -90,12 +94,12 @@ body {
   margin-right: 3em;
   padding: .5em;
   width: 100%;
-  box-shadow: 3px 3px 26px 0px rgba(150,150,150,0.28);
+  box-shadow: .2em .2em 26px 0px rgba(150,150,150,0.25);
 }
 
 .boxed-image {
   width: 100%;
-  box-shadow: 3px 3px 26px 0px rgba(150,150,150,0.28);
+  box-shadow: .2em .2em 37px rgba(150, 150, 150,0.80);
 }
 
 .business-content {
