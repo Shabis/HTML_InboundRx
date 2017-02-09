@@ -97,6 +97,24 @@ body {
   box-shadow: .2em .2em 26px 0px rgba(150,150,150,0.25);
 }
 
+.boxed-text {
+  width: 100%;
+  box-shadow: .2em .2em 37px rgba(150, 150, 150,0.80);
+  background: white;
+  margin-right: 3em;
+  padding: .5em;
+}
+
+.boxed-text-content {
+  font-weight: bolder !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.boxed-text-header {
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .boxed-image {
   width: 100%;
   box-shadow: .2em .2em 37px rgba(150, 150, 150,0.80);
