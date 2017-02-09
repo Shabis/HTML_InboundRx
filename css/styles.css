@@ -46,22 +46,29 @@ header > .row {
   margin-left: .5em;
   font-weight: bold;
   color: black;
-  text-shadow: .05em .05em lightgrey;
+  text-shadow: 2px 2px 15px rgba(150, 150, 150, 0.77);
 }
 
 .main-navigation {
-  margin-top: 2em;
+  margin-top: 4em;
   text-align: right;
 }
 
 a:hover {
-  color: white;
+  color: white !important;
   font-weight: normal;
-  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: black;
 }
 
 .logo {
-  margin-left: 4em;
+  margin-left: 3em;
   margin-top: 2em;
 }
 
@@ -74,18 +81,21 @@ body {
 
 .section-main-titles {
   background: white;
-  box-shadow: grey;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-right: 3em;
   padding: .5em;
-}
-
-.boxed-section {
-  margin-left: 2em;
-  margin-right: 2em;
+  width: 100%;
+  box-shadow: 3px 3px 26px 0px rgba(0,0,0,0.28);
 }
 
 .boxed-image {
-  margin: 1em 1em 1em 1em;
+  width: 100%;
+  box-shadow: 3px 3px 26px 0px rgba(0,0,0,0.28);
+}
+
+.business-content {
+  margin-top: 2em;
+  margin-bottom: 10em;
+  margin-left: 5em;
 }
