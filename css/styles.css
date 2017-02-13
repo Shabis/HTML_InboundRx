@@ -30,6 +30,11 @@ body {
 	100%{background-position:0% 50%}
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
 /*DROPDOWN*/
 .dropdown {
     position: relative;
@@ -88,39 +93,17 @@ header > div > div > a:hover {
   font-weight: normal;
   font-weight: bold;
   text-shadow: 2px 2px 15px rgba(150, 150, 150, 0.77);
-  text-decoration: none;
 }
 
-header > div > div > a {
-  text-decoration: none !important;
-}
-
-header > div > div > a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-.box-section > a:hover {
+.box-section > a:hover, .subpage-link > h3:hover {
   font-family: 'Montserrat', sans-serif;
   color: #B4B4B4 !important;
-  text-decoration: none;
-}
-
-.box-section > a {
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  text-decoration: none;
 }
 
 .logo {
   margin-left: 3em;
   margin-top: 2em;
 }
-
 
 /*BODY*/
 
