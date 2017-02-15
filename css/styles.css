@@ -64,9 +64,7 @@ a:-webkit-any-link {
 /*HEADER*/
 
 header > .row {
-  margin-bottom: 3em;
-  margin-right: 1.9em;
-  margin-left: 1.9em;
+  margin: 0em 1.9em 3em 1.9em;
 }
 .menu-items {
   font-family: 'Montserrat', sans-serif;
@@ -143,11 +141,10 @@ header > div > div > a:hover {
 }
 
 .box-section {
-  margin: 3em;
+  margin: 0em 3em 0em 3em;
 }
 
 .business-content {
-  margin-top: 2em;
   margin-bottom: 10em;
   margin-left: 3em;
 }
@@ -166,11 +163,6 @@ header > div > div > a:hover {
 button {
   margin-left: 38%;
   margin-top: 2em;
-}
-
-.page-subheaders {
-  margin-top: 2em;
-  margin-left: 3em;
 }
 
 .page-detail {
@@ -192,18 +184,26 @@ button {
 .mini-box {
   /*box-shadow: .2em .2em 37px rgba(150, 150, 150,0.80);*/
   margin-bottom: 2em;
-  margin-left: 4.5em;
   margin-right: 1em;
+  width: 100%;
+  background: white;
+  height: 30em;
 }
 
 .mini-box-text {
   padding-left: .5em;
   padding-bottom: .75em;
+  background: white;
 }
 
 .mini-boxed-image {
   width: 100%;
   height: 19.5em;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 30em;
 }
 
 @media screen and (max-width: 1110px) {
