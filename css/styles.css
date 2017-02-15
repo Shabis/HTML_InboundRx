@@ -95,7 +95,7 @@ header > div > div > a:hover {
 
 .box-section > a:hover, .subpage-link > h3:hover {
   font-family: 'Montserrat', sans-serif;
-  color: #B4B4B4 !important;
+  color: black !important;
 }
 
 .logo {
@@ -107,6 +107,7 @@ header > div > div > a:hover {
 /*BODY*/
 
 .section-main-titles {
+  color: #B4B4B4 !important;
   background: white;
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;
@@ -185,7 +186,7 @@ button {
 }
 
 .current-subfolder {
-  color: #B3B3B3;
+  color: black !important;
 }
 
 .mini-box {
@@ -204,15 +205,6 @@ button {
   width: 100%;
   height: 19.5em;
 }
-
-/*.scroll {*/
-/*  overflow-y: scroll;*/
-/*  height: 40em;*/
-/*}*/
-
-/*.north {
-  height: 7.4em;
-}*/
 
 @media screen and (max-width: 1110px) {
   body > div > .col-md-3 {
