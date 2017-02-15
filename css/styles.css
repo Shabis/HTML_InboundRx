@@ -206,10 +206,10 @@ button {
   height: 19.5em;
 }
 
-.scroll {
-  overflow-y: scroll;
-  height: 40em;
-}
+/*.scroll {*/
+/*  overflow-y: scroll;*/
+/*  height: 40em;*/
+/*}*/
 
 /*.north {
   height: 7.4em;
