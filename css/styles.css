@@ -64,7 +64,6 @@ a:-webkit-any-link {
 /*HEADER*/
 
 header > .row {
-  margin-top: 3em;
   margin-bottom: 3em;
 }
 .menu-items {
@@ -82,7 +81,7 @@ header > .row {
 }
 
 .main-navigation {
-  margin-top: 4em;
+  margin-top: 3.2em;
   text-align: right;
 }
 
@@ -101,8 +100,8 @@ header > div > div > a:hover {
 }
 
 .logo {
-  margin-left: 3em;
   margin-top: 2em;
+  margin-left: 3em;
 }
 
 /*BODY*/
@@ -169,7 +168,7 @@ button {
 }
 
 .page-subheaders {
-  margin-top: 5em;
+  margin-top: 2em;
   margin-left: 3em;
 }
 
