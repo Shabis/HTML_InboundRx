@@ -65,11 +65,13 @@ a:-webkit-any-link {
 
 header > .row {
   margin-bottom: 3em;
+  margin-right: 1.9em;
+  margin-left: 1.9em;
 }
 .menu-items {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.1em;
-  margin-right: .5em;
+  font-size: 1.6em;
+  margin-right: 1em;
   margin-left: .5em;
   font-weight: bold;
   color: black;
@@ -101,7 +103,8 @@ header > div > div > a:hover {
 
 .logo {
   margin-top: 2em;
-  margin-left: 3em;
+  margin-left: 4em;
+  margin-right: 6.5em;
 }
 
 /*BODY*/
