@@ -1,36 +1,32 @@
+
+/*GRADIENT BACKGROUND*/
 html {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox */
     box-sizing: border-box;
 }
-
 body {
-
 	background: linear-gradient(90deg, #c2eaec, #f4ebda);
 	background-size: 600% 600%;
 	-webkit-animation: Gradient 20s ease infinite;
 	-moz-animation: Gradient 20s ease infinite;
 	animation: Gradient 20s ease infinite;
 }
-
 @-webkit-keyframes Gradient {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
 }
-
 @-moz-keyframes Gradient {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
 }
-
 @keyframes Gradient {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
 }
-
 a:-webkit-any-link {
   text-decoration: none;
   color: black;
@@ -48,9 +44,7 @@ a:-webkit-any-link {
 
 .dropdown-content {
     margin-right: 2em;
-
     display: none;
-
     background-color: #f9f9f9;
     min-width: 160px;
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
@@ -77,11 +71,11 @@ a:-webkit-any-link {
   color: white !important;
 }
 
-.main-navigation {
+/*.main-navigation {
   margin-top: 3.2em;
   text-align: right;
   padding-right: 1.4em;
-}
+}*/
 
 header > div > div > a:hover {
   color: white !important;
@@ -101,11 +95,13 @@ header > div > div > a:hover {
 }
 
 header {
-  margin: 2em 3% 2em 3%;
+  margin: 4em 4% 2em 5%;
 }
 
 .header-right {
   text-align: right;
+  padding-top: 1em;
+  font-size: 120%;
 }
 
 /*BODY*/
@@ -149,12 +145,12 @@ header {
 }
 
 .center-box {
-  margin: 0em 3em 0em 3em;
+  margin: 0em 2.9% 0em 2.9%;
 }
 
 .business-content {
   display: block;
-  margin: 0em 2% 7em 2%;
+  margin: 0em 4% 7em 4%;
 }
 
 .tiles {
@@ -219,22 +215,121 @@ button {
   overflow-y: scroll;
   height: 30em;
 }
-
 #style-3::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
 }
-
 #style-3::-webkit-scrollbar
 {
 	width: 6px;
 	background-color: #F5F5F5;
 }
-
 #style-3::-webkit-scrollbar-thumb
 {
 	background-color: #B4B4B4;
+}
+
+@media screen and (min-width: 0px) {
+  .section-main-titles {
+    font-size: .6em;
+  }
+  .header-right {
+    padding-top: 0.7em;
+  }
+  .menu-items {
+    font-size: 0.4em;
+  }
+  header {
+    margin-bottom: 0em;
+    margin-top: .5em;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .section-main-titles {
+    font-size: .8em;
+  }
+  .header-right {
+    padding-top: 0.5em;
+  }
+  .menu-items {
+    font-size: 0.6em;
+  }
+  header {
+    margin-bottom: 0em;
+    margin-top: .8em;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .section-main-titles {
+    font-size: 1em;
+  }
+  .header-right {
+    padding-top: 0.3em;
+  }
+  .menu-items {
+    font-size: 0.8em;
+  }
+  header {
+    margin-bottom: 0em;
+    margin-top: .8em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .section-main-titles {
+    font-size: 1.4em;
+  }
+  .menu-items {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section-main-titles {
+    font-size: 1.6em;
+  }
+  .menu-items {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 975px) {
+  .section-main-titles {
+    font-size: 1.8em;
+  }
+  .menu-items {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-main-titles {
+    font-size: 2em;
+  }
+  .menu-items {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .section-main-titles {
+    font-size: 2.7em;
+  }
+  .menu-items {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .section-main-titles {
+    font-size: 3em;
+  }
+  .menu-items {
+    font-size: 2.4em;
+  }
 }
 
 /*@media screen and (min-width: 1850px) {*/
