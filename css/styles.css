@@ -64,9 +64,6 @@ a:-webkit-any-link {
 
 /*HEADER*/
 
-header > .row {
-  margin: 0em 1.9em 3em 1.9em;
-}
 .menu-items {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6em;
@@ -98,9 +95,17 @@ header > div > div > a:hover {
 }
 
 .logo {
-  margin-top: 2em;
-  margin-left: 4em;
-  margin-right: 6.5em;
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  margin: 2em 3% 2em 3%;
+}
+
+.header-right {
+  text-align: right;
 }
 
 /*BODY*/
@@ -140,7 +145,7 @@ header > div > div > a:hover {
 }
 
 .box-section {
-  width: 30%;
+  width: 31.4%;
 }
 
 .center-box {
