@@ -1,4 +1,3 @@
-
 /*GRADIENT BACKGROUND*/
 html {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -41,7 +40,6 @@ a:-webkit-any-link {
     margin-top: 2em;
     margin-right: 2em;
 }
-
 .dropdown-content {
     margin-right: 2em;
     display: none;
@@ -50,7 +48,6 @@ a:-webkit-any-link {
     padding: 12px 16px;
     z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -64,31 +61,25 @@ a:-webkit-any-link {
   margin-left: .5em;
   font-weight: bold;
 }
-
 .current-page {
   color: white !important;
 }
-
 header > div > div > a:hover {
   color: white !important;
   font-weight: bold;
 }
-
 .box-section > a:hover, .subpage-link > h3:hover {
   font-family: 'Montserrat', sans-serif;
   color: black !important;
 }
-
 .logo {
   text-align: left;
   width: 100%;
   height: auto;
 }
-
 header {
   margin: 4em 4% 2em 5% !important;
 }
-
 .header-right {
   text-align: right;
   padding-top: 1em;
@@ -106,62 +97,55 @@ header {
   padding: .5em;
   width: 100%;
 }
-
 .boxed-text {
   width: 100%;
   background: white;
   margin-right: 3em;
   padding: .5em;
 }
-
 .boxed-text-content {
   font-weight: bolder !important;
   font-family: 'Raleway', sans-serif;
+  padding-left: .5em;
+  padding-right: .5em;
 }
-
 .boxed-text-header, form > div > label {
   font-weight: bolder !important;
   font-family: 'Montserrat', sans-serif !important;
+  padding-left: .5em;
+  padding-right: .5em;
 }
-
-.boxed-image {
+.boxed-image, .mini-boxed-image {
   width: 100%;
   height: auto;
 }
-
 .box-section {
   width: 31.4%;
 }
-
 .center-box {
   margin: 0em 2.9% 0em 2.9%;
 }
-
 .business-content {
   display: block;
   margin: 0em 4% 7em 4%;
 }
-
 .tiles {
-  margin-left: 3em !important;
+  display: block;
+  margin: 0em 4% 1em 4%;
 }
-
 .form-control {
   border: none;
   font-weight: bolder !important;
   font-family: 'Raleway', sans-serif;
   -webkit-box-shadow: none;
 }
-
 .form-control::-webkit-input-placeholder {
   color: #C6C6C6;
 }
-
 button {
   margin-left: 38%;
   margin-top: 2em;
 }
-
 .page-detail {
   margin-bottom: 10em;
   background: white;
@@ -169,39 +153,31 @@ button {
   padding-top: 2em;
   height: 44em;
 }
-
 .margin-offset {
   margin-left: 6em;
 }
-
 .current-subfolder {
   color: black !important;
 }
-
 .mini-box {
   margin-bottom: 2em;
   margin-right: 1em;
   width: 100%;
   background: white;
-  height: 30em;
+  /*height: 30em;*/
 }
-
 .mini-box-text {
   padding-left: .5em;
   padding-bottom: .75em;
   background: white;
 }
 
-.mini-boxed-image {
-  width: 100%;
-  height: 19.5em;
-}
-
 /*SCROLL*/
 
 .scrollbar {
   overflow-y: scroll;
-  height: 30em;
+  max-height: 30em;
+  margin-bottom: 2em;
 }
 #style-3::-webkit-scrollbar-track
 {
@@ -217,6 +193,8 @@ button {
 {
 	background-color: #B4B4B4;
 }
+
+/*MEDIA QUERIES*/
 
 @media screen and (min-width: 0px) {
   .section-main-titles {
