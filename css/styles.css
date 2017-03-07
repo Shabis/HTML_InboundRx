@@ -74,15 +74,15 @@ header > div > div > a:hover {
 .logo {
   text-align: left;
   width: 25vw;
-  padding-top: .2vw;
+  padding-left: 1vw;
   height: auto;
 }
 header {
-  margin: 4vw 5vh 1vw 7vh !important;
+  margin: 4vw 5vh 1vw 4vw !important;
 }
 .header-right {
   text-align: right;
-  padding-top: .3vw;
+  padding-top: .8vw;
   font-size: 120%;
 }
 
@@ -130,7 +130,7 @@ header {
 }
 .business-content {
   display: block;
-  margin: 0em 4% 7em 4%;
+  margin: 0em 4vw 7em 4vw;
 }
 .tiles {
   display: block;
@@ -232,8 +232,10 @@ button {
     text-align: center;
     font-size: 3vw;
   }
-
   .dropdown {
-    margin-left: 57vw;
+    margin-left: 62vw;
+  }
+  header {
+    margin-left: 7.5vw !important;
   }
 }
